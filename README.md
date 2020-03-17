@@ -48,7 +48,15 @@ Run Random Forest using Code in `bot_flow.ipynb`
 
 You can use the Pre-Trained model for prediction directly: `BICA_model.Rdata`
 
+Predictors (In Order):
+
+`'Uniq.File.Exten' 'Tot.FilesChanged' 'Std.File.pCommit' 'Tot.uniq.Projects' 'Avg.File.pCommit' 'Median.Project.pCommit'`
+
 ### Running BIMAN:
 Code snippet available in `bot_flow.ipynb`
 
 You can use the Pre-Trained model for prediction directly: `ensemble.Rdata`
+
+Predictors (In Order):
+
+`p, ratio, name`
