@@ -52,6 +52,16 @@ Predictors (In Order):
 
 `'Uniq.File.Exten' 'Tot.FilesChanged' 'Std.File.pCommit' 'Tot.uniq.Projects' 'Avg.File.pCommit' 'Median.Project.pCommit'`
 
+Description:
+| Variable Name           	|                                                                                                               Variable Description                                                                                                              	|
+|-------------------------	|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:	|
+| Tot.FilesChanged        	| Total number of files changed by the author in all their commits (including duplicates)                                                                                                                                                         	|
+| Uniq.File.Exten         	| Total number of different file extension in all the author's commits                                                                                                                                                                            	|
+| Std.File.pCommit        	| Std. Deviation of the number of files per commit                                                                                                                                                                                                	|
+| Avg.File.pCommit        	| Mean number of files per Commit                                                                                                                                                                                                                 	|
+| Tot.uniq.Projects       	| Total number of different project the author's commits have been associated with                                                                                                                                                                	|
+| Median.Project. pCommit 	| Median number of project the author's commits have been associated with (with duplicates); we took the median value, because the distribution of projects per commit was very skewed, and the mean was heavily influenced by the maximum value. 	|
+
 ### Running BIMAN:
 Code snippet available in `bot_flow.ipynb`
 
@@ -60,3 +70,11 @@ You can use the Pre-Trained model for prediction directly: `ensemble.Rdata`
 Predictors (In Order):
 
 `p, ratio, name`
+
+Description:
+
+| Variable Name 	|                                       Variable Description                                       	|
+|---------------	|:------------------------------------------------------------------------------------------------:	|
+| p             	| Probability of Author being a bot from BICA prediction                                           	|
+| name          	| Whether the author has the word "Bot" in their name in the required pattern, as indicated by BIN 	|
+| ratio         	| 1-(no. of message templates detected/no. of messages), as calculated by BIM                      	|
