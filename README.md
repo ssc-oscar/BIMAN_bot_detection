@@ -21,6 +21,11 @@ Use code in `bot_datagen.ipynb` (first code block)
 ### Getting Commit to File map (c2f):
 `zcat commits.gz| ~/lookup/getValues -vQ c2f | gzip > paper_c2f.gz`
 
+## Snapshot of the Data
+Snapshot of the different data files used by the scripts is available in `data_snapshot` folder. This is for demonstration purpose, so that researchers using this Tool know how to format their data if they are not using WoC tool to generate the data.
+
+# Running BIMAN
+
 ### Running BIN (name based detection) approach:
 
 ` ./BIN.sh |file with list of Author IDs|`
