@@ -34,15 +34,12 @@ Example Author ID file structure:
 
 ```
 dependabot[bot] <support@dependabot.com>
-greenkeeper <felixhennigfh@gmail.com>
-Greenkeeper <support@greenkeeper.io>
-greenkeeper.io <support@greenkeeper.io>
-greenkeeper-keeper <nodaguti+keeper@gmail.com>
-greenkeeper <greenkeeper@users.noreply.github.com>
-Greenkeeper <green@fxck.it>
-Greenkeeper <support@greenkeeper.io>
-SPOT robot <spotbot@ebi-cli-003.ebi.ac.uk>
+felix <felixhennigfh@gmail.com>
+John Smith <support@support-bot.io>
+Abbot <abbot@ebi-cli-003.ebi>
 ```
+
+Only `dependabot[bot] <support@dependabot.com>` should come out as a bot.
 
 ### Running BIM: 
 Use code in `bot_datagen.ipynb`
