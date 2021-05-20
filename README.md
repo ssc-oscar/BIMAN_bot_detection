@@ -46,7 +46,7 @@ Use code in `bot_datagen.ipynb`
 
 ### Running BICA:
 Prepare data using code in `bot_datagen.ipynb`
-Run Random Forest using Code in `bot_flow.ipynb`
+Run Random Forest using Code in `BICA_BIMAN.ipynb`
 
 You can use the Pre-Trained model for prediction directly: `BICA_model.Rdata`
 
@@ -65,7 +65,7 @@ Description:
 | Median.Project. pCommit 	| Median number of projects the author's commits have been associated with (with duplicates); we took the median value, because the distribution of projects per commit was very skewed, and the mean was heavily influenced by the maximum value. 	|
 
 ### Running BIMAN:
-Code snippet available in `bot_flow.ipynb`
+Code snippet available in `BICA_BIMAN.ipynb`
 
 You can use the Pre-Trained model for prediction directly: `ensemble.Rdata`
 
