@@ -75,8 +75,9 @@ Predictors (In Order):
 
 Description:
 
-| Variable Name 	|                                       Variable Description                                       	|
-|---------------	|:------------------------------------------------------------------------------------------------:	|
-| p             	| Probability of Author being a bot from BICA prediction                                           	|
-| name          	| Whether the author has the word "Bot" in their name in the required pattern, as indicated by BIN 	|
-| ratio         	| 1-(no. of message templates detected/no. of messages), as calculated by BIM                      	|
+| Variable Name 	| Variable Type             |                                        Variable Description                       |
+|---------------	|---------------------------|:--------------------------------------------------------------------------------:	|
+| p             	| numeric                   | Probability of Author being a bot from BICA prediction                            |
+| ratio         	| numeric                   |1-(no. of message templates detected/no. of messages), as calculated by BIM        |
+| name          	| Factor w/ 2 levels "0","1"| Whether the author has the word "Bot" in their name in the required pattern, as indicated by BIN : "0"-> not a bot, "1" -> bot 	|
+
